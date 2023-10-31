@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" modified="2023-05-03T03:11:23.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="c4aRtp6V5qSc3g7st6ej" version="21.2.3" type="device">
+  <diagram name="Страница 1" id="EL-gVBMZQzTK69apqXBg">
+    <mxGraphModel dx="6625" dy="1453" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VYPJS_P0oO09VFys9aII-1" value="Формирование отчета" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2256" y="94" width="1383" height="722" as="geometry">
+            <mxRectangle x="-617" y="152" width="171" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-2" value="Бухгалтер" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-1">
+          <mxGeometry x="3" y="24" width="540" height="696" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-3" value="Запрос на формирование отчета" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-2">
+          <mxGeometry x="171" y="107" width="178" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-4" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-2">
+          <mxGeometry x="304" y="574" width="59" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="VYPJS_P0oO09VFys9aII-2" source="VYPJS_P0oO09VFys9aII-6" target="VYPJS_P0oO09VFys9aII-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-2/16/record-round-circle-dot-128.png;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-2">
+          <mxGeometry x="239" y="41" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-7" value="Система" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-1">
+          <mxGeometry x="544" y="24" width="467" height="698" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-8" value="Запрос на формирование отчета" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-7">
+          <mxGeometry x="88" y="107" width="181" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VYPJS_P0oO09VFys9aII-7" source="VYPJS_P0oO09VFys9aII-10" target="VYPJS_P0oO09VFys9aII-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-10" value="Сформировать отчет&amp;nbsp;&lt;br&gt;формата excel" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-7">
+          <mxGeometry x="125" y="289" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-11" value="Отправка отчета&amp;nbsp;&lt;br&gt;на пользовательский ПК" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-7">
+          <mxGeometry x="129.5" y="399" width="217" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-12" value="БД" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-1">
+          <mxGeometry x="1011" y="24" width="372" height="698" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-13" value="Предоставить данные для&amp;nbsp;&lt;br&gt;формирования отчета" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-12">
+          <mxGeometry x="28" y="107" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;startSize=8;endSize=8;" edge="1" parent="VYPJS_P0oO09VFys9aII-1" source="VYPJS_P0oO09VFys9aII-8" target="VYPJS_P0oO09VFys9aII-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VYPJS_P0oO09VFys9aII-1" source="VYPJS_P0oO09VFys9aII-3" target="VYPJS_P0oO09VFys9aII-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;startSize=8;endSize=8;" edge="1" parent="VYPJS_P0oO09VFys9aII-1" source="VYPJS_P0oO09VFys9aII-13" target="VYPJS_P0oO09VFys9aII-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VYPJS_P0oO09VFys9aII-1" source="VYPJS_P0oO09VFys9aII-11" target="VYPJS_P0oO09VFys9aII-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-18" value="Транзакция" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-3974" y="98" width="1383" height="722" as="geometry">
+            <mxRectangle x="-617" y="152" width="171" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-19" value="Бухгалтер" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-18">
+          <mxGeometry x="3" y="24" width="540" height="696" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-20" value="Запрос на проведение&amp;nbsp;&lt;br&gt;транзакции" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-19">
+          <mxGeometry x="171" y="107" width="178" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-21" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-19">
+          <mxGeometry x="304" y="574" width="59" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="VYPJS_P0oO09VFys9aII-19" source="VYPJS_P0oO09VFys9aII-23" target="VYPJS_P0oO09VFys9aII-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-2/16/record-round-circle-dot-128.png;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-19">
+          <mxGeometry x="239" y="41" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-24" value="Система" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-18">
+          <mxGeometry x="544" y="24" width="467" height="698" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-25" value="Запрос на проведение&amp;nbsp;&lt;br&gt;транзакции" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-24">
+          <mxGeometry x="88" y="107" width="181" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-26" value="Отправка ответа" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-24">
+          <mxGeometry x="120.5" y="378" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-27" value="БД" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-18">
+          <mxGeometry x="1011" y="24" width="372" height="698" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VYPJS_P0oO09VFys9aII-27" source="VYPJS_P0oO09VFys9aII-29" target="VYPJS_P0oO09VFys9aII-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-29" value="Списывание суммы с валютного счета клиента" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-27">
+          <mxGeometry x="49" y="107" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-30" value="Перевод списанной суммы на счет валюты&amp;nbsp;&lt;br&gt;магазина" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="VYPJS_P0oO09VFys9aII-27">
+          <mxGeometry x="46.5" y="225" width="199" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;startSize=8;endSize=8;" edge="1" parent="VYPJS_P0oO09VFys9aII-18" source="VYPJS_P0oO09VFys9aII-25" target="VYPJS_P0oO09VFys9aII-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VYPJS_P0oO09VFys9aII-18" source="VYPJS_P0oO09VFys9aII-20" target="VYPJS_P0oO09VFys9aII-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="VYPJS_P0oO09VFys9aII-18" source="VYPJS_P0oO09VFys9aII-30" target="VYPJS_P0oO09VFys9aII-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYPJS_P0oO09VFys9aII-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VYPJS_P0oO09VFys9aII-18" source="VYPJS_P0oO09VFys9aII-26" target="VYPJS_P0oO09VFys9aII-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
